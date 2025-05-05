@@ -1,12 +1,22 @@
-### An online platform for brain tumor classification using MRI images, 
-enhanced with image modification techniques to improve detection accuracy for low-quality scans.
+# **Brain Tumor Classification Platform**  
+A platform for **brain tumor classification** using MRI images, enhanced with image modification techniques to improve detection accuracy in **low-quality scans**.
 
-Purpose: Classifies brain images into categories using convolutional neural networks (CNNs).
+### **Purpose**  
+- Classifies brain MRI images using **convolutional neural networks (CNNs)**.  
+- Optimized for handling low-quality medical imaging.
 
-Frameworks Used: TensorFlow/Keras for model development; Albumentations for augmentation; Streamlit for interactive deployment.
+### **Technologies & Frameworks**  
+- **TensorFlow/Keras** – Deep learning model development  
+- **Albumentations** – Advanced image augmentation  
+- **Streamlit** – Interactive web-based deployment  
 
-Model Architecture: Utilizes InceptionV3, a powerful pre-trained CNN model.
+### **Model Architecture**  
+- Built on **InceptionV3**, a pre-trained CNN model for feature extraction.  
+- Incorporates **dropout layers** to prevent overfitting.  
 
-Augmentation & Regularization: Includes advanced image augmentation techniques and dropout layers to mitigate overfitting.
+### **Augmentation & Regularization**  
+- Implements **noise-based augmentations** to enhance model robustness.  
+- Leverages **class weight adjustments** to handle data imbalance.
 
-Deployment: Integrated with Streamlit, enabling real-time image prediction in a web app.
+### **Deployment**  
+- **Streamlit integration** enables real-time tumor classification in a user-friendly web app.  
